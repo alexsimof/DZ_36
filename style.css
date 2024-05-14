@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrap {
+  padding: 20px 0;
+
+}
+
+.timer {
+  width: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: rgb(199, 199, 199);
+  border-radius: 10px;
+  box-shadow: 0 1px 3px;
+  cursor: pointer;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.timer span {
+  font-size: 75px;
+}
+
+.point {
+  display: inline-block;
+  font-size: 60px;
+  height: 80px;
+  margin: 0;
+}
+
+.buttons button {
+  width: 153px;
+  height: 35px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn-start {
+  background-color: rgb(7, 216, 153);
+}
+
+.btn-stop {
+  color: #fff;
+  background-color: rgb(255, 80, 80);
+}
+
+.btn-reset {
+  background-color: rgb(104, 204, 235);
+}
+
+.progress {
+  width: 310px;
+  height: 35px;
+  background-color: rgb(0, 219, 117);
+  margin: 20px auto 0;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  margin: 0 auto;
+  background-color: rgb(218, 218, 218);
+  padding: 30px 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px;
+}
+
+.modal p {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.modal span {
+  font-size: 50px;
+  margin: 0 5px;
+}
+
+.modal label {
+  text-align: left;
+  display: block;
+}
+
+.modal input {
+  display: block;
+  width: 90px;
+  font-size: 50px;
+}
+
+.btn-ok {
+  display: block;
+  width: 100px;
+  height: 35px;
+  margin: 30px auto 0;
+  background-color: rgb(0, 219, 117);
+  border: 0;
+}
+
+.show {
+  display: block;
+}
