@@ -50,3 +50,4 @@ function startTimer() {
 }
 
 start.addEventListener('click', startTimer);
+
