@@ -44,11 +44,12 @@
 }
 
 .buttons button {
-  width: 153px;
+  width: 100px;
   height: 35px;
   font-size: 18px;
   border: 0;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn-start {
@@ -67,8 +68,14 @@
 .progress {
   width: 310px;
   height: 35px;
-  background-color: rgb(0, 219, 117);
+  background-color: #00db75;
   margin: 20px auto 0;
+}
+
+.line {
+  width: 0%;
+  height: 100%;
+  background-color: red;
 }
 
 .form {
